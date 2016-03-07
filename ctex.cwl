@@ -33,8 +33,17 @@
 \zihao{字号}
 \ziju{中文字符宽度的倍数}
 \ccwd#*
-\CTEXsetfont#*
+# 更新当前的中文字体信息，一般用户用不上的，标上 S 吧
+\CTEXsetfont#S
 # 中文数字转换
 \chinese{counter}
 \CTEXnumber{cmd}{number}
 \CTEXdigits{cmd}{number}
+#
+\CTEXthepart#*
+\CTEXthethechapter#*
+\CTEXthesection#*
+\CTEXthesubsection#*
+\CTEXthesubsubsection#*
+\CTEXtheparagragh#*
+\CTEXthesubparagragh#*
