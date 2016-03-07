@@ -11,6 +11,7 @@
 #include:everysel
 #include:zhnumber
 #include:fontspec
+#include:xecjk
 #
 \CTeX#n
 \ctexset{kevals}
@@ -31,18 +32,8 @@
 \CJKfamily{zhyahei}#*
 \zihao{字号}
 \ziju{中文字符宽度的倍数}
-\ccwd#S
-\CTEXsetfont#S
-\setCJKmainfont{font name}#*
-\setCJKmainfont[font features]{font name}
-\setCJKsansfont{font name}
-\setCJKsansfont[font features]{font name}#*
-\setCJKmonofont{font name}
-\setCJKmonofont[font features]{font name}#*
-\setCJKfamilyfont{family}[font features]{font name}#*
-\CJKfamily{family}#*
-\newCJKfontfamily[family]\fontswitch[font features]{font name}#*
-\CJKfontspec[font features]{font name}#*
+\ccwd#*
+\CTEXsetfont#*
 # 中文数字转换
 \chinese{counter}
 \CTEXnumber{cmd}{number}
