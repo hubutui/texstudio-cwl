@@ -10,8 +10,6 @@
 #include:catchfile
 #include:fix-cm
 #include:filehook
-#include:unicode-math-luatex
-#include:unicode-math-xetex
 #
 \setmathfont{font name}
 \setmathfont[font features]{font name}
