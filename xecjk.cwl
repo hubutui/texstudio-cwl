@@ -26,10 +26,10 @@
 \CJKfontspec{font name}
 \CJKfontspec[font features]{font name}
 \defaultCJKfontfeatures{font features}#*
-\addfontCJKfeatures{fontfeatures}#*
-\addfontCJKfeatures*{fontfeatures}#*
-\addfontCJKfeatures[blocks]{fontfeatures}#*
-\addfontCJKfeatures*[blocks]{fontfeatures}#*
+\addfontCJKfeatures{font features}#*
+\addfontCJKfeatures*{font features}#*
+\addfontCJKfeatures[blocks]{font features}#*
+\addfontCJKfeatures*[blocks]{font features}#*
 \CJKrmdefault#S
 \CJKsfdefault#S
 \CJKttdefault#S
