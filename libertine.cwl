@@ -63,7 +63,7 @@
 \LKeyScreenDown#*
 \LKeyIns
 \LKeyEnd
-\LKeyGnu
+\LKeyGNU
 \LKeyPageUp
 \LKeyPageDown
 \LKeyCommand
