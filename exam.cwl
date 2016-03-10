@@ -2,8 +2,8 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
-\usepackage[addpoints]{exam}
-\usepackage[addpoints, %<1%>]{exam}
+\documentclass[addpoints]{exam}%|
+\documentclass[addpoints, %<options%>]{exam}
 \begin{questions}
 \end{questions}
 \question#/questions

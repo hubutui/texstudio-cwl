@@ -15,6 +15,9 @@
 #
 \CTeX#n
 \ctexset{kevals}
+#keyvals:\ctexset
+fontset=#none,adobe,fandol
+#endkeyvals
 # 字体设置相关
 \songti
 \CJKfamily{zhsong}#*
