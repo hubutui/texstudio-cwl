@@ -52,7 +52,8 @@
 \xeCJKsetwidth{标点列表}{length}#*
 \xeCJKsetkern{前标点}{后标点}{length}#*
 \xeCJKDeclarePunctStyle{style}{keyvals}#*
-# sub-package xeCJKfntef
+# 子宏包 xeCJKfntef
+# 另有 xeCJKfntef.cwl
 \CJKunderline{内容}
 \CJKunderline*{内容}
 \CJKunderline-{内容}
