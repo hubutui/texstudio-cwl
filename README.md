@@ -8,3 +8,11 @@ TeXstudio 可以根据
  \documentclass{class}
  \usepackage{package} 
 来自动载入相应的 cwl 文件．
+
+对于 libertine 这种宏包，可以通过
+ \usepackage{libertineRoman}
+ \usepackage{libertineMono}
+ \usepackage{biolinum}
+之类的方式来使用，从而设置不同的字体的，一般还是考虑将所有的命令补全内容写到 libertine.cwl 中，然后在其他几个 cwl 文件中写上 
+ #include:libertine
+即可，即使他们并不是真的有这样的依赖关系．但是这样写会比较简单．
