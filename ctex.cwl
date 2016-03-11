@@ -11,7 +11,7 @@
 #include:everysel
 #include:zhnumber
 #include:fontspec
-#include:xecjk
+#include:xeCJK
 #
 \CTeX#n
 \ctexset{kevals}
