@@ -18,10 +18,10 @@
 \setmonofont[font features]{font name}
 \setmonofont{font name}[font features]
 #
-\newfontfamily{cmd}{font name}
-\newfontfamily{cmd}{font name}[font features]
-\newfontface{cmd}{font name}
-\newfontface{cmd}{font name}[font features]
+\newfontfamily{cmd}{font name}#d
+\newfontfamily{cmd}{font name}[font features]#d
+\newfontface{cmd}{font name}#d
+\newfontface{cmd}{font name}[font features]#d
 #
 \setmathrm{font name}
 \setmathrm{font name}[font features]
