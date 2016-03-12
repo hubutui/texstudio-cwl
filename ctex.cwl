@@ -13,6 +13,15 @@
 #include:fontspec
 #include:xeCJK
 #
+\usepackage{ctex}#u
+\usepackage[options]{ctex}#u
+\documentclass{ctexart}
+\documentclass[keyvals]{ctexart}
+\documentclass{ctexrep}
+\documentclass[keyvals]{ctexrep}
+\documentclass{ctexbook}
+\documentclass[keyvals]{ctexbook}
+
 \CTeX#n
 \ctexset{keyvals}
 # 键值列表里只能写键值列表，不能写注释了．．．
