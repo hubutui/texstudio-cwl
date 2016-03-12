@@ -7,7 +7,11 @@
 #include:l3packages
 #include:fontspec
 #
+\usepackage{xeCJK}
+\usepackage[keyvals]{xeCJK}
+#
 \xeCJKsetup{keyvals}
+
 \setCJKmonofont{font name}
 \setCJKmainfont[font features]{font name}
 \setCJKsansfont{font name}
@@ -19,10 +23,10 @@
 \CJKfamily{family}
 \CJKfamily+{family}#*
 \CJKfamily-{family}#*
-\newCJKfontfamily{cmd}{font name}
-\newCJKfontfamily{cmd}[font features]{font name}#*
-\newCJKfontfamily[family]{cmd}{font name}#*
-\newCJKfontfamily[family]{cmd}[font features]{font name}#*
+\newCJKfontfamily{cmd}{font name}#d
+\newCJKfontfamily{cmd}[font features]{font name}#*d
+\newCJKfontfamily[family]{cmd}{font name}#*d
+\newCJKfontfamily[family]{cmd}[font features]{font name}#*d
 \CJKfontspec{font name}
 \CJKfontspec[font features]{font name}
 \defaultCJKfontfeatures{font features}#*
