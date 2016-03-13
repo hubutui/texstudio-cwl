@@ -5,6 +5,8 @@
 #include:xunicode
 #include:xltxtra
 #
+\usepackage{fontspec}#u
+\usepackage[options]{fontspec}#u
 \fontspec{font name}
 \fontspec[font features]{font name}
 \fontspec{font name}[font features]
