@@ -2,7 +2,7 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
-\usepackage{framed}
+\usepackage{framed}#u
 \begin{framed}
 \end{framed}
 \begin{oframed}
