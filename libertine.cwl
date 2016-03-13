@@ -2,6 +2,14 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
+\usepackage{libertine}#u
+\usepackage[options]{libertine}#u
+\usepackage{libertineRoman}#*u
+\usepackage[options]{libertineRoman}#*u
+\usepackage[options]{libertineRoman}#*u
+\usepackage[options]{libertineMono}#*u
+\usepackage[options]{biolinum}#*u
+
 \libertine
 \libertineSB
 \libertineOsF
@@ -101,4 +109,3 @@
 \LMouseIIL
 \LMouseIIR
 \LMouseIILR
-
