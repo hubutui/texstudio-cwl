@@ -34,11 +34,13 @@
 #
 \defaultfontfeatures{font features}
 \defaultfontfeatures+{font features}
-\defaultfontfeatures+[font names]{font features}
 \defaultfontfeatures[font names]{font features}
-\defaultfontfeatures[cmd]{font features}
+\defaultfontfeatures+[font names]{font features}
+\defaultfontfeatures[\font-switch]{font features}
+\defaultfontfeatures+[\font-switch]{font features}
 \addfontfeatures{font features}
-\addfontfeature
+# actually, it's an alias to \addfontfatures
+\addfontfeature{font features}#*
 #
 \newAATfeature{feature}{option}{feature code}{selector code}#*
 \newopentypefeature{feature}{option}{feature tag}#*
