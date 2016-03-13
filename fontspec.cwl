@@ -7,6 +7,7 @@
 #
 \usepackage{fontspec}#u
 \usepackage[options]{fontspec}#u
+\usepackage[no-math]{fontspec}#u
 \fontspec{font name}
 \fontspec[font features]{font name}
 \fontspec{font name}[font features]
