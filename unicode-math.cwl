@@ -11,9 +11,24 @@
 #include:fix-cm
 #include:filehook
 #
+\usepackage{unicode-math}#u
+\usepackage[options]{unicode-math}#u
 \setmathfont{font name}
 \setmathfont[font features]{font name}
-\unimathsetup{keyval}#*\mathexclam#Sm
+\unimathsetup{keyval}#
+#keyvals:\unimathsetup
+math-style=#TeX,ISO,french,upright,literal
+bold-style=#TeX,ISO,upright,literal
+sans-style=#upright,italic,literal
+nabla=#upright,italic,literal
+partial=#upright,italic,literal
+vargreek-shape=#TeX,unicode
+colon=#literal,TeX
+slash-delimiter=#ascii,frac,div
+active-frac=#small,normalsize
+#endkeyvals
+#
+\mathexclam#Sm
 \mathoctothorpe#Sm
 \mathdollar#Sm
 \mathpercent#Sm
