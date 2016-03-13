@@ -4,6 +4,10 @@
 #
 #include:keyval
 #
+\usepackage{listings}
+\usepackage[options]{listings}
+#
+\lstloadlanguages{languages}#*
 \lstinline{code}
 \lstinline[keyvals]{code}
 \begin{lstlisting}#V
