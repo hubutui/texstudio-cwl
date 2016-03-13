@@ -7,10 +7,57 @@
 #include:l3packages
 #include:fontspec
 #
-\usepackage{xeCJK}
-\usepackage[keyvals]{xeCJK}
+\usepackage{xeCJK}#u
+\usepackage[options]{xeCJK}#u
+\usepackage[LocalConfig = %<name%>]{xeCJK}#*u
 #
 \xeCJKsetup{keyvals}
+xeCJKactive=#true,false
+CJKspace=#true,false
+CJKmath=#true,false
+CJKglue=
+CJKecglue=
+xCJKecglue=
+CheckSingle=#true,false
+WindowPenalty=
+PlainEquation=#true,false
+NewLineCS=
+NewLineCS+=
+NewLineCS-=
+EnvCS=
+EnvCS+=
+EnvCS-=
+InlineEnv=
+InlineEnv+=
+InlineEnv-=
+AutoFallback=#true,false
+AutoFakeBold=
+AutoFakeSlant=
+EmboldenFactor=
+SlantFactor=
+PunctStyle=#quanjiao,banjiao,kaiming,hangbaobanjiao,CCT,plain
+KaiMingPunct=
+KaiMingPunct+=
+KaiMingPunct-=
+LongPunct=
+LongPunct+=
+LongPunct-=
+MiddlePunct=
+MiddlePunct+=
+MiddlePunct-=
+PunctWidth=
+PunctBoundWidth=
+AllowBreakBetweenPuncts=#true,false
+RubberPunctSkip=#true,false
+CheckFullRight=#true,false
+NoBreakCS=
+NoBreakCS+=
+NoBreakCS-=
+Verb=#true,false,env,env+
+LoadFandol=#true,false
+#keyvals:\xeCJKsetup
+
+#endkeyvals
 
 \setCJKmonofont{font name}
 \setCJKmainfont[font features]{font name}
@@ -23,10 +70,12 @@
 \CJKfamily{family}
 \CJKfamily+{family}#*
 \CJKfamily-{family}#*
+#
 \newCJKfontfamily{cmd}{font name}#d
 \newCJKfontfamily{cmd}[font features]{font name}#*d
 \newCJKfontfamily[family]{cmd}{font name}#*d
 \newCJKfontfamily[family]{cmd}[font features]{font name}#*d
+#
 \CJKfontspec{font name}
 \CJKfontspec[font features]{font name}
 \defaultCJKfontfeatures{font features}#*
