@@ -41,4 +41,6 @@ keepAspect=#true,false
 viewpointwidth=
 viewpoinheight=
 #endkeyvals
+\begin{asydef}#V
+\end{asydef}
 
