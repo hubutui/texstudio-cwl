@@ -27,7 +27,7 @@ viewpoinheight=
 #endkeyvals
 #
 \asydir
-\begin{asy}
+\begin{asy}#V
 \begin{asy}[keyvals]
 \end{asy}
 \asyinclude{file}
