@@ -27,7 +27,7 @@ viewpoinheight=
 #endkeyvals
 #
 \asydir
-\begin{asy}#V
+\begin{asy}
 \begin{asy}[keyvals]
 \end{asy}
 \asyinclude{file}
@@ -41,6 +41,6 @@ keepAspect=#true,false
 viewpointwidth=
 viewpoinheight=
 #endkeyvals
-\begin{asydef}#V
+\begin{asydef}
 \end{asydef}
 
