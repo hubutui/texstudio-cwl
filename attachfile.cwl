@@ -1,4 +1,4 @@
-# cwl for package attachfile
+# cwl for package attachfile, version 1.8
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
