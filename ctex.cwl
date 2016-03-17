@@ -1,4 +1,4 @@
-# cwl for package ctex, version 2.3, revision 39559
+# cwl for package ctex, version 2.3
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
