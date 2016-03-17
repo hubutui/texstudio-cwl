@@ -1,4 +1,4 @@
-# cwl for package libertine
+# cwl for package libertine, version 5.3.0
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
