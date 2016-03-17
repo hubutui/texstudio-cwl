@@ -3,11 +3,13 @@
 # Darcy Hu <hot123tea123@gmail.com>
 #
 # 包含其他宏包的命令补全文件
+#include:ifxetex
+#include:ifluatex
 #include:expl3
+#include:uchartcat
 #include:xparse
 #include:l3keys2e
 #include:fontspec
-#include:catchfile
 #include:fix-cm
 #include:filehook
 #
