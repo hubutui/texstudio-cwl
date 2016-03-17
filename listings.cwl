@@ -1,4 +1,4 @@
-# cwl for package listings
+# cwl for package listings, version 1.6
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
