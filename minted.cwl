@@ -1,4 +1,4 @@
-# cwl for package minted
+# cwl for package minted, version 2.1
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
