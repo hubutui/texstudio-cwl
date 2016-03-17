@@ -1,4 +1,4 @@
-# cwl for package attachfile2
+# cwl for package attachfile2, version 2.7
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
