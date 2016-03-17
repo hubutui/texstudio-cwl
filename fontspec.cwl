@@ -1,4 +1,4 @@
-# cwl for package fontspec
+# cwl for package fontspec, version 2.5a
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
