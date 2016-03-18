@@ -1,4 +1,4 @@
-# cwl for package xecjk
+# cwl for package xecjk, version 3.3.4
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
