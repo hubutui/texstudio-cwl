@@ -186,19 +186,72 @@
 #
 \extrawidth{length}
 \extraheadheight{height}
-\extrafootheight{height}
-# head & foot
-\pagestyle{head}
-\pagestyle{foot}
-\pagestyle{headandfoot}
+\extraheadheight[height for first page]{height for later pages}
+\extrafootheight[height for first page]{height for later pages}
+# headers & footers
 \firstpageheader{left part}{center part}{right part}
 \firstpagefooter{left part}{center part}{right part}
-\firstpageheadrule
-\firstpagefootrule
 \runningheader{left part}{center part}{right part}
 \runningfooter{left part}{center part}{right part}
+\header{left part}{center part}{right part}
+\footer{left part}{center part}{right part}
+\lhead{text}
+\lhead[text on first page]{text on later pages}
+\chead{text}
+\chead[text on first page]{text on later pages}
+\rhead{text}
+\rhead[text on first page]{text on later pages}
+\lfoot{text}
+\lfoot[text on first page]{text on later pages}
+\cfoot{text}
+\cfoot[text on first page]{text on later pages}
+\rfoot{text}
+\rfoot[text on first page]{text on later pages}
+\headrule
+\firstpageheadrule
 \runningheadrule
+\footrule
+\firstpagefootrule
 \runningfootrule
+\numpages
+\iflastpage{text if it isn't last page}{text if it's last page}#*
+\oddeven{text on odd pages}{text on even pages}
+\ifcontinuation{text 1}{text 2}
+\ContinuedQuestion
+\ifincomplete{text 1}{text 2}
+\IncompleteQuestion
+\nomorequestions
+\nomorequestionsonthispage
+#
+\begin{coverpages}
+\end{coverpages}
+\coverheader{left part}{center part}{right part}
+\coverrunningheader{left part}{center part}{right part}
+\coverfirstpageheader{left part}{center part}{right part}
+\coverlhead{text}
+\coverlhead[text on first page]{text on later pages}
+\coverchead{text}
+\coverchead[text on first page]{text on later pages}
+\coverrhead{text}
+\coverrhead[text on first page]{text on later pages}
+#
+\coverfooter{left part}{center part}{right part}
+\coverrunningfooter{left part}{center part}{right part}
+\coverfirstpagefooter{left part}{center part}{right part}
+\coverlfoot{text}
+\coverlfoot[text on first page]{text on later pages}
+\covercfoot{text}
+\covercfoot[text on first page]{text on later pages}
+\coverrfoot{text}
+\coverrfoot[text on first page]{text on later pages}
+#
+\coverextraheadheight{height}
+\coverextraheadheight[height for first page]{height for later pages}
+\coverextrafootheight{height}
+\coverextrafootheight[height for first page]{height for later pages}
+#
+\numcoverpages
+\totalnumberpages
 #
 \addpoints
 \noaddpoints
