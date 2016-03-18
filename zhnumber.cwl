@@ -1,4 +1,4 @@
-# cwl for package zhnumber
+# cwl for package zhnumber, version 2.3
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
@@ -15,6 +15,7 @@
 encoding=#GBK,Big5,UTF8
 time=#Arabic,Chinese
 style=#Simplified,Traditional,Normal,Financial,Ancient
+ganzhi-cyclic=#true,false
 null=#true,false
 reset
 activebar=#true,false
@@ -381,4 +382,8 @@ sun=
 \zhtoday
 \zhtime{hh:mm}
 \zhcurrtime
+\zhtiangan{number}
+\zhdizhi{number}
+\zhganzhi{number}
+\zhganzhinian{year}
 \zhnumExtendScaleMap[character]{character1, character2, ..., charactern}#*
