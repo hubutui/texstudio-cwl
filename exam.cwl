@@ -2,8 +2,19 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
-\documentclass[addpoints]{exam}%|
-\documentclass[addpoints, %<options%>]{exam}
+#keyvals:\documentclass/exam
+addpoints
+answers
+11pt
+12pt
+a4paper
+a5paper
+b5paper
+letterpapaer
+legalpaper
+executivepaper
+landscape
+#endkeyvals
 #
 \begin{questions}
 \end{questions}
