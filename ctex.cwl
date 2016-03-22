@@ -58,7 +58,7 @@ chapter/name=
 section/name=
 subsection/name=
 subsubsection/name=
-paragragh/name=
+paragraph/name=
 subparagraph/name=
 part/number=
 chapter/number=
@@ -217,5 +217,5 @@ zhmap=#true,false,zhmCJK
 \CTEXthesection#*
 \CTEXthesubsection#*
 \CTEXthesubsubsection#*
-\CTEXtheparagragh#*
-\CTEXthesubparagragh#*
+\CTEXtheparagraph#*
+\CTEXthesubparagraph#*
