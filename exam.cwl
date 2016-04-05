@@ -315,7 +315,7 @@ landscape
 \ifincomplete{text 1}{text 2}
 \IncompleteQuestion
 \nomorequestions
-\nomorequestionsonthispage
+\noquestionsonthispage
 #
 \begin{coverpages}
 \end{coverpages}
