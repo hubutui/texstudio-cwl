@@ -178,7 +178,7 @@ landscape
 \greeknum{counter}
 #
 \questionlabel
-\partlable
+\partlabel
 \subpartlabel
 \subsubpartlabel
 \choicelabel
