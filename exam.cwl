@@ -65,8 +65,8 @@ landscape
 \checkboxchar{char format}
 #
 \fillin
-\fill[answer]
-\fill[answer][lenght]
+\fillin[answer]
+\fillin[answer][lenght]
 \fillinlinelenght
 #
 \uplevel{text}
