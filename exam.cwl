@@ -87,7 +87,7 @@ landscape
 \answerline[answer]
 \answerlinelength
 \answerskip
-\anserclearance
+\answerclearance
 #
 \begin{solution}
 \begin{solution}[height]
