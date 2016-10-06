@@ -2,7 +2,6 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
-# 包含其他宏包的补全文件
 #include:l3kernel
 #include:l3packages
 #include:fontspec
@@ -105,8 +104,6 @@ LoadFandol=#true,false
 \xeCJKsetwidth{标点列表}{length}#*
 \xeCJKsetkern{前标点}{后标点}{length}#*
 \xeCJKDeclarePunctStyle{style}{keyvals}#*
-# 子宏包 xeCJKfntef
-# 另有 xeCJKfntef.cwl
 \CJKunderline{内容}
 \CJKunderline*{内容}
 \CJKunderline-{内容}

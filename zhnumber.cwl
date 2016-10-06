@@ -2,7 +2,6 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
-# 包含其他宏包的补全文件
 #include:expl3
 #include:xparse
 #include:l3key2e
