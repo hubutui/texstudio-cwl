@@ -2,7 +2,6 @@
 # Copyright. 2016-
 # Darcy Hu <hot123tea123@gmail.com>
 #
-# 包含其他宏包的补全文件
 #include:expl3
 #include:xparse
 #include:l3keys2e
@@ -24,9 +23,6 @@
 
 \CTeX#n
 \ctexset{keyvals}
-# 键值列表里只能写键值列表，不能写注释了．．．
-# 感觉有点不方便呢
-# 多余的空格和空行也不能写
 #keyvals:\ctexset
 fontset=#none,adobe,fandol,founder,mac,ubuntu,windows,windowsnew,windowsold
 punct=#quanjiao,banjiao,kaiming,CCT,plain
@@ -185,7 +181,6 @@ appendix/number=
 zhmap=#true,false,zhmCJK
 #endkeyvals
 #
-# 字体设置相关
 \songti
 \CJKfamily{zhsong}#*
 \heiti
@@ -203,11 +198,9 @@ zhmap=#true,false,zhmCJK
 \zihao{字号}
 \ziju{中文字符宽度的倍数}
 \ccwd#*
-# 更新当前的中文字体信息，一般用户用不上的
-# 如果用上的，应该知道这个命令，所以标上 S 吧
-# 这样子就不会提示它是未知命令了
+#
 \CTEXsetfont#S
-# 中文数字转换
+#
 \chinese{counter}
 \CTEXnumber{cmd}{number}
 \CTEXdigits{cmd}{number}
